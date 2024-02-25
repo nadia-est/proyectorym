@@ -1,8 +1,74 @@
-.bg-home{
-    background-color: rgba(255, 255, 255,0.9);
-    height: fit-content;
-    margin: 20%;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Raleway,sans-serif;
+    box-sizing: border-box;
 }
+
+@media (max-width: 768px){
+.container-header {
+ width: 90%;
+}
+
+
+}
+
+@media (max-width: 607px){
+h1 {
+    font-size: 20px;
+}
+}
+
+
 h1{
-    color: green;
+    display: flex;
+    font-size: 40px;
 }
+
+.principal-search {
+    height: 100vh;
+}
+
+.container-header{
+    background-color: #ffffffe6;
+    height: 600px;
+    width: 600px;
+}
+
+
+h1 {
+    color: #344d67;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+
+h2{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+}
+
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+h2, p {
+color: #344d67;
+    
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+

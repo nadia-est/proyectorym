@@ -1,0 +1,16 @@
+@media (max-width: 800px){
+.filters-area {
+    background-color: #344d67;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 15px;
+    width: 90%;
+}
+}
+
+.filtros{
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+
+}

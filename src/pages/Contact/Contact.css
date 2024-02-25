@@ -1,0 +1,15 @@
+.formulario{
+display: flex;
+flex-direction: column;
+width: 1300px;
+height: auto;
+align-items: center;
+}
+
+
+.contenedorform{
+
+display: flex;
+justify-content: center;
+
+}

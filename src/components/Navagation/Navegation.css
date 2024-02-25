@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Raleway,sans-serif;
+}
+
+.active{
+    color: #344d67;
+    background-color: #6eccaf;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Arriba{
+background-color: #344d67 !important;
+padding: 65px;
+
+}
+
+.titulo{
+color: #6eccaf;
+
+
+}
+

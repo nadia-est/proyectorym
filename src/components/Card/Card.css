@@ -1,0 +1,33 @@
+.card{
+width: 300px;
+height: 390px;
+margin: 12px;
+display: flex;
+justify-content: center;
+background-color: #223142;
+
+}
+
+img{
+  width: 280px;
+  height: auto;
+}
+
+
+.Tarjeta{
+position: relative;
+}
+.btn{
+background-color: #6eccaf!important;
+position: absolute;
+right: 0;
+
+
+}
+
+h3{
+color: #6eccaf;
+text-align: center;
+
+
+}

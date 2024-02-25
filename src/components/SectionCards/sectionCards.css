@@ -1,0 +1,16 @@
+@media (max-width: 800px){
+.seccionFiltros {
+    align-items: center;
+    flex-direction: column;
+}
+
+}
+
+.fuenteBlanca{
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
