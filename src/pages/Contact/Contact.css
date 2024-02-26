@@ -1,15 +1,44 @@
-.formulario{
-display: flex;
-flex-direction: column;
-width: 1300px;
-height: auto;
-align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Raleway,sans-serif;
+    box-sizing: border-box;
+}
+
+.textocontact{
+color: #223142;
+font-size: 30px;
+
+
 }
 
 
-.contenedorform{
 
+.formulario{
+display: flex;
+flex-direction: column;
+width: 1500px;
+height: 700px;
+align-items: center;
+background-color: rgba(92,117,146,.9);
+
+}
+
+.contenedorformulario{
+margin-top: 45px;
 display: flex;
 justify-content: center;
 
+
+}
+
+.boton{
+  color: white;
+    background-color: #344d67;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
 }

@@ -3,9 +3,11 @@
 *{
     font-family: Raleway,sans-serif;
 }
+.text-decoration-none{
+ color: #344d67;
+}
 
 .active{
-    color: #344d67;
     background-color: #6eccaf;
     border-radius: 5px;
     padding: 10px;
@@ -18,8 +20,12 @@ padding: 65px;
 }
 
 .titulo{
-color: #6eccaf;
+color: #6eccaf!important ;
 
 
 }
+
+
+
+
 

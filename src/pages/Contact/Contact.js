@@ -6,9 +6,10 @@ export default function Contact(){
       
         <div >
             <Navegation hoja="Contact"/>
-            <main className=" bg-primary m-5 text-white p-5 formulario ">
-                <h1 className="text-white">Contact</h1>
-                    <p>Leave us your information so we can contact you</p>
+            <div className="contenedorformulario container-fluid ">
+            <main className="formulario">
+                <h1 className="row colorBLue py-5">Contact</h1>
+                    <p className="textocontact row colorBLue subtitle">Leave us your information so we can contact you</p>
                 <form action="creo usuario en formspree y pego el link si quiero...">
                     <div className="row g-3">
                         <div className="col">
@@ -21,13 +22,13 @@ export default function Contact(){
                         </div>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="message" className="form-label">Message</label>
+                        <label htmlFor="message" className="form-label ">Message</label>
                         <textarea className="form-control" id="message" rows="3"></textarea>
                     </div>
-                    <input className="btn btn-success" type="submit" value="Send"/>
+                    <input className="boton " type="submit" value="Send"/>
                 </form>
             </main>
         </div>
-        
+        </div>
     )
 }
